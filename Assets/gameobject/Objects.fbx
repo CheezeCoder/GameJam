@@ -11,9 +11,9 @@ FBXHeaderExtension:  {
 		Year: 2014
 		Month: 06
 		Day: 14
-		Hour: 04
-		Minute: 02
-		Second: 36
+		Hour: 12
+		Minute: 00
+		Second: 44
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2014-06-14 04:02:36:000"
+CreationTime: "2014-06-14 12:00:44:000"
 Creator: "Blender version 2.71 (sub 0)"
 
 ; Object definitions
@@ -29,7 +29,7 @@ Creator: "Blender version 2.71 (sub 0)"
 
 Definitions:  {
 	Version: 100
-	Count: 17
+	Count: 19
 	ObjectType: "Model" {
 		Count: 13
 	}
@@ -38,6 +38,12 @@ Definitions:  {
 	}
 	ObjectType: "Material" {
 		Count: 3
+	}
+	ObjectType: "Texture" {
+		Count: 1
+	}
+	ObjectType: "Video" {
+		Count: 1
 	}
 	ObjectType: "Pose" {
 		Count: 1
@@ -963,6 +969,43 @@ Objects:  {
 			           1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,
 			           0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 		}
+		LayerElementUV: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			UV: 0.141563,0.277586,0.271238,0.277721,0.315628,0.271185,0.188051,0.003308,0.212119,0.008676,0.202281,0.008647,
+			    0.207200,0.009005,0.581024,0.000093,0.484204,0.999905,0.484202,0.000094,0.193737,0.000094,0.096917,0.999906,
+			    0.096915,0.000094,0.000096,0.999907,0.000093,0.000094,0.355276,0.538706,0.678635,0.538706,0.050102,0.260300,
+			    0.183809,0.000064,0.226361,0.003447,0.197412,0.007595,0.221758,0.005923,0.410656,0.245559,0.222677,0.996692,
+			    0.184978,0.280807,0.227949,0.280850,0.361980,0.260722,0.290561,0.999906,0.290559,0.000094,0.193739,0.999906,
+			    0.677846,0.000093,0.871490,0.000094,0.871490,0.999904,0.774668,0.999904,0.774668,0.000093,0.677847,0.999904,
+			    0.581025,0.999905,0.000075,0.244743,0.096904,0.270932,0.213314,0.992404,0.313826,0.729003,0.218079,0.994172,
+			    0.269166,0.722351,0.188963,0.994074,0.184359,0.996551,0.095094,0.728749,0.193732,0.992342,0.139485,0.722214,
+			    0.198604,0.991322,0.182776,0.719087,0.203524,0.990993,0.225749,0.719130,0.208444,0.991351,0.226921,0.999936,
+			    0.192648,0.005827,0.387382,0.999906,0.387380,0.000094,0.678635,0.862065,0.355276,0.862065,0.356166,0.251349,
+			    0.656166,0.251349,0.656166,0.551349,0.356166,0.551349,0.000064,0.754368,0.048740,0.739209,0.216990,0.007655,
+			    0.360629,0.739632,0.410656,0.755186
+			UVIndex: 31,32,33,34,34,33,35,30,30,35,36,7,7,36,8,9,9,8,55,56,56,55,27,28,28,27,29,10,10,29,11,12,12,11,13,14,15,16,57,58,15,16,57,58,15,16,57,58,15,16,57,58,15,16,57,58,15,16,57,58,59,60,61,62,
+			         59,60,61,62,59,60,61,62,59,60,61,62,59,60,61,62,59,60,61,62,63,64,43,44,64,45,46,43,45,47,48,46,47,49,50,48,49,51,52,50,51,42,39,52,42,40,41,39,40,66,23,41,66,67,53,23,17,37,18,3,38,17,3,54,
+			         0,38,54,20,24,0,20,5,25,24,5,6,1,25,6,4,2,1,4,65,26,2,65,21,22,26,21,19,31,34,33,32,34,30,35,33,30,7,36,35,7,9,8,36,9,56,55,8,56,28,27,55,28,10,29,27,10,12,11,29,12,14,13,11,
+			         15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,59,62,61,60,59,62,61,60,59,62,61,60,59,62,61,60,59,62,61,60,59,62,61,60,63,44,43,64,64,43,46,45,45,46,48,47,47,48,50,49,
+			         49,50,52,51,51,52,39,42,42,39,41,40,40,41,23,66,66,23,53,67,17,3,18,37,38,54,3,17,0,20,54,38,24,5,20,0,25,6,5,24,1,4,6,25,2,65,4,1,26,21,65,2,22,19,21,26,31,34,33,32,34,30,35,33,
+			         30,7,36,35,7,9,8,36,9,56,55,8,56,28,27,55,28,10,29,27,10,12,11,29,12,14,13,11,15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,15,58,57,16,59,62,61,60,59,62,61,60,59,62,61,60,
+			         59,62,61,60,59,62,61,60,59,62,61,60,63,44,43,64,64,43,46,45,45,46,48,47,47,48,50,49,49,50,52,51,51,52,39,42,42,39,41,40,40,41,23,66,66,23,53,67,17,3,18,37,38,54,3,17,0,20,54,38,24,5,20,0,
+			         25,6,5,24,1,4,6,25,2,65,4,1,26,21,65,2,22,19,21,26,31,32,33,34,34,33,35,30,30,35,36,7,7,36,8,9,9,8,55,56,56,55,27,28,28,27,29,10,10,29,11,12,12,11,13,14,15,16,57,58,15,16,57,58,
+			         15,16,57,58,15,16,57,58,15,16,57,58,15,16,57,58,59,60,61,62,59,60,61,62,59,60,61,62,59,60,61,62,59,60,61,62,59,60,61,62,63,64,43,44,64,45,46,43,45,47,48,46,47,49,50,48,49,51,52,50,51,42,39,52,
+			         42,40,41,39,40,66,23,41,66,67,53,23,17,37,18,3,38,17,3,54,0,38,54,20,24,0,20,5,25,24,5,6,1,25,6,4,2,1,4,65,26,2,65,21,22,26,21,19
+		}
+		LayerElementTexture: 0 {
+			Version: 101
+			Name: "UVMap"
+			MappingInformationType: "AllSame"
+			ReferenceInformationType: "IndexToDirect"
+			BlendMode: "Translucent"
+			TextureAlpha: 1
+			TextureId: 0
+		}
 		LayerElementMaterial: 0 {
 			Version: 101
 			Name: ""
@@ -978,6 +1021,10 @@ Objects:  {
 			}
 			LayerElement:  {
 				Type: "LayerElementSmoothing"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementUV"
 				TypedIndex: 0
 			}
 			LayerElement:  {
@@ -2068,7 +2115,7 @@ Objects:  {
 		AudioColor: 0,1,0
 		CameraOrthoZoom: 1
 	}
-	Material: "Material::StoneGrey", "" {
+	Material: "Material::StoneGrey__BrickOldRounded0027_7_thumblarge_jpg", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -2158,6 +2205,56 @@ Objects:  {
 			Property: "Reflectivity", "double", "",0
 		}
 	}
+	Video: "Video::BrickOldRounded0027_7_thumblarge_jpg", "Clip" {
+		Type: "Clip"
+		Properties60:  {
+			Property: "FrameRate", "double", "",0
+			Property: "LastFrame", "int", "",0
+			Property: "Width", "int", "",0
+			Property: "Height", "int", "",0
+			Property: "Path", "charptr", "", "BrickOldRounded0027_7_thumblarge.jpg"
+			Property: "StartFrame", "int", "",0
+			Property: "StopFrame", "int", "",0
+			Property: "PlaySpeed", "double", "",1
+			Property: "Offset", "KTime", "",0
+			Property: "InterlaceMode", "enum", "",0
+			Property: "FreeRunning", "bool", "",0
+			Property: "Loop", "bool", "",0
+			Property: "AccessMode", "enum", "",0
+		}
+		UseMipMap: 0
+		Filename: "BrickOldRounded0027_7_thumblarge.jpg"
+		RelativeFilename: "C:\Users\Paste\Desktop\BrickOldRounded0027_7_thumblarge.jpg"
+	}
+	Texture: "Texture::BrickOldRounded0027_7_thumblarge_jpg", "TextureVideoClip" {
+		Type: "TextureVideoClip"
+		Version: 202
+		TextureName: "Texture::BrickOldRounded0027_7_thumblarge_jpg"
+		Properties60:  {
+			Property: "Translation", "Vector", "A+",0,0,0
+			Property: "Rotation", "Vector", "A+",0,0,0
+			Property: "Scaling", "Vector", "A+",1,1,1
+			Property: "Texture alpha", "Number", "A+",0
+			Property: "TextureTypeUse", "enum", "",0
+			Property: "CurrentTextureBlendMode", "enum", "",1
+			Property: "UseMaterial", "bool", "",0
+			Property: "UseMipMap", "bool", "",0
+			Property: "CurrentMappingType", "enum", "",0
+			Property: "UVSwap", "bool", "",0
+			Property: "WrapModeU", "enum", "",0
+			Property: "WrapModeV", "enum", "",0
+			Property: "TextureRotationPivot", "Vector3D", "",0,0,0
+			Property: "TextureScalingPivot", "Vector3D", "",0,0,0
+			Property: "VideoProperty", "object", ""
+		}
+		Media: "Video::BrickOldRounded0027_7_thumblarge_jpg"
+		FileName: "BrickOldRounded0027_7_thumblarge.jpg"
+		RelativeFilename: "C:\Users\Paste\Desktop\BrickOldRounded0027_7_thumblarge.jpg"
+		ModelUVTranslation: 0,0
+		ModelUVScaling: 1,1
+		Texture_Alpha_Source: "None"
+		Cropping: 0,0,0,0
+	}
 	Pose: "Pose::BIND_POSES", "BindPose" {
 		Type: "BindPose"
 		Version: 100
@@ -2229,11 +2326,15 @@ Relations:  {
 	}
 	Model: "Model::Camera Switcher", "CameraSwitcher" {
 	}
-	Material: "Material::StoneGrey", "" {
+	Material: "Material::StoneGrey__BrickOldRounded0027_7_thumblarge_jpg", "" {
 	}
 	Material: "Material::unnamed", "" {
 	}
 	Material: "Material::window", "" {
+	}
+	Texture: "Texture::BrickOldRounded0027_7_thumblarge_jpg", "TextureVideoClip" {
+	}
+	Video: "Video::BrickOldRounded0027_7_thumblarge_jpg", "Clip" {
 	}
 }
 
@@ -2250,7 +2351,9 @@ Connections:  {
 	Connect: "OO", "Material::unnamed", "Model::Cube_001"
 	Connect: "OO", "Material::unnamed", "Model::Cube"
 	Connect: "OO", "Material::unnamed", "Model::Cylinder"
-	Connect: "OO", "Material::StoneGrey", "Model::CastleTower"
+	Connect: "OO", "Material::StoneGrey__BrickOldRounded0027_7_thumblarge_jpg", "Model::CastleTower"
+	Connect: "OO", "Texture::BrickOldRounded0027_7_thumblarge_jpg", "Model::CastleTower"
+	Connect: "OO", "Video::BrickOldRounded0027_7_thumblarge_jpg", "Texture::BrickOldRounded0027_7_thumblarge_jpg"
 }
 ;Takes and animation section
 ;----------------------------------------------------
